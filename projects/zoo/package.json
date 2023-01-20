@@ -1,0 +1,17 @@
+{
+  "name": "zoo",
+  "version": "1.0.0",
+  "description": "zoo inside a computer",
+  "main": "zoo.test.js",
+  "type": "module",
+  "scripts": {
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest",
+    "test:coverage": "set NODE_OPTIONS=--experimental-vm-modules && jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

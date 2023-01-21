@@ -9,7 +9,7 @@ export interface ErrorAlarmConfig {
    */
   maxErrors: number;
   /**
-   * The lapse of time to count errors.
+   * The lapse of time in seconds to count errors.
    */
   maxTime: number;
   /**
